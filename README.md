@@ -1,6 +1,6 @@
 # L'édition numérique et critique : "Le vin du solitaire" (Baudelaire)
 
-Ce projet a été réalosé dans le cadre de l'évaluation finale du cours **XSLT** du Master TNAH (Ecole nationale des Chartes), année 2025-2026. 
+Ce projet a été réalisé dans le cadre de l'évaluation finale du cours **XSLT** du Master TNAH (Ecole nationale des Chartes), année 2025-2026. 
 
 ## Objectif du Projet
 L'objectif de ce projet est de proposer une chaîne de publication complète à partir d'un fichier source encodé en *XML-TEI*. Il s'agit de transformer une donnée structurée "inerte" en un dispositif de lecture multi-support :
@@ -14,7 +14,7 @@ L'objectif de ce projet est de proposer une chaîne de publication complète à 
 * html/ : Dossier contenant les fichiers HTML résultants (home.html, page1.html, index.html).
 * edition.tex : Le fichier LaTeX généré prêt pour la compilation PDF.
 
-## 🛠 Maîtrise Technique (XSLT & XPath)
+## Maîtrise Technique (XSLT & XPath)
 La feuille de style respecte les exigences techniques suivantes :
 
 ### 1. XPath et Fonctions

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/Tei_Poetic_Odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/Tei_Poetic_Odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fr"> LE VIN DU SOLITAIRE </title>  <!-- The author's name does not appear on the document we are encoding -->
+            <respStmt>
+               <resp>encoded by</resp>
+               <persName>
+                  <forename>Léticia</forename>
+                  <surname>Mvondo Mvogo</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <!-- Information sur le document TEI -->
+         
+         <publicationStmt>
+            <publisher>Poulet-Malassis et de Broise</publisher>
+            <availability status="free"> 
+               <p>
+                  Available on Gallica, at the Bibliothèque nationale de France
+               </p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- Information about the sources of the encoded document; This information is not in the document, but to understand the encoding and facilitate our work, we took it from the Gallica website.-->
+         
+         <sourceDesc>
+            <bibl>
+               <title>Les Fleurs du mal</title>
+               <author>Charles Baudelaire</author>
+               <publisher>Poulet-Malassis et de Broise</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date>1861</date>
+               <idno type="ARK">https://gallica.bnf.fr/ark:/12148/bpt6k70860g/f261.item#</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <!-- Description of the body of the poem, including epigraph, tropes, verses, and rhymes -->
+   
+   <text>
+      <body>
+         <div type="poem" n="CVII">
+            <head>LE VIN DU SOLITAIRE</head>
+            
+            <!-- The rhymes also follow each other, so we have ABBA, the stanzas are of the quadriline type-->
+            <lg type="quatrain">
+               <l n="1" rhyme="A">Le regard singulier d'une femme galante</l>
+               <l n="2" rhyme="B">Qui se glisse vers nous comme le rayon blanc</l>
+               <l n="3" rhyme="B">Que la lune onduleuse envoie au lac tremblant;</l>
+               <l n="4" rhyme="A">Quand elle y veut baigner sa beauté nonchalante;</l>
+            </lg>
+            
+            <!-- The trophy has a name, Adéline, hence the use of the "perName" attribute. The rhymes also follow each other, so we have CDDC-->
+            
+            <lg type="quatrain">
+               <l n="1" rhyme="C">Le dernier sac d'écus dans les doigts d'un joueur;</l>
+               <l n="2" rhyme="D">Un baiser libertin de la maigre <persName><forename>Adeline</forename></persName></l>
+               <l n="3" rhyme="D">Les sons d'une musique énervante et câline</l>
+               <l n="4" rhyme="C">Semblable au cri lointain de l'humaine douleur;</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

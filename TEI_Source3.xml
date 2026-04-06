@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/Tei_Poetic_Odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/Tei_Poetic_Odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="la">Quot libras in duce summo?</title> <!-- The author's name does not appear on the document we are encoding -->
+            <respStmt>
+               <resp>encoded by</resp>
+               <persName>
+                  <forename>Léticia</forename>
+                  <surname>Mvondo Mvogo</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <!-- Information about the poem -->
+         
+         <publicationStmt>
+            <availability status="free"> 
+               <p>Available on Gallica, at the Bibliothèque nationale de France</p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- Information about the sources of the encoded document ; This information is not in the document, but to understand the encoding and facilitate our work, we took it from the Gallica website.-->
+         
+         <sourceDesc>
+            <bibl>
+               <title>Oeuvre poétique</title>
+               <author>Victor Hugo</author>
+               <editor>Jules Hetzel</editor>
+               <publisher>Elsévirienne</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date>1869-1870</date>
+               <idno type="ARK">https://gallica.bnf.fr/ark:/12148/bpt6k5435112w/f80.item#</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <!-- Description of the body of the poem, including epigraph, tropes, verses, and rhymes -->
+   
+   <text>
+      <body>
+         <div type="poem" n="XIII">
+            <head>
+               Quot libras in duce summo?
+            </head>
+            
+            <!-- The rhymes also follow each other, so we have AABCCB, the stanzas are of the sestain type-->
+            
+            <lg type="sestain">
+               <l n="1" rhyme="A">C'est une chose grande, et que tout homme envie</l>
+               <l n="2" rhyme="A">D'avoir un lustre en soi qu'on répand sur sa vie,</l>
+               <l n="3" rhyme="B">D'être choisi d'un peuple à venger son affront,</l>
+               <l n="4" rhyme="C">De ne point faire un pas qui n'ait trace en l'histoire,</l>
+               <l n="5" rhyme="C">Ou de chanter, les yeux au ciel, et que la gloire</l>
+               <l n="6" rhyme="B">Fasse avec un regard reluire votre front.</l>
+            </lg>
+            
+            <!-- The rhymes also follow each other, so we have DDEFFE, the stanzas are of the sestain type-->
+            
+            <lg type="sestain">
+               <l n="1" rhyme="D">Il est beau de courir par la terre usurpée,</l>
+               <l n="2" rhyme="D">Disciplinant les rois du plat de son épée,</l>
+               <l n="3" rhyme="E">D'être <persName>Napoléon</persName>, l'empereur radieux,</l>
+               <l n="4" rhyme="F">D'être Dante, à son nom rendant les voix muettes,</l>
+               <l n="5" rhyme="F">Sans doute ils sont heureux les héros, les poëtes,</l>
+               <l n="6" rhyme="E">Ceux que le bras fait rois, ceux que l'esprit fait dieux:</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

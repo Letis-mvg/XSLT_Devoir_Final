@@ -13,7 +13,7 @@ L'objectif de ce projet est de proposer une chaîne de publication web complète
 
 ## Fonctionnalités Techniques
 Le projet utilise des fonctions avancées pour offrir une expérience critique :
-* **Mise en regard (Split-Screen)** : Confrontation directe entre le texte encodé et le fac-similé du manuscrit original.
+* **Mise en regard (Split-Screen)** : Confrontation directe entre le texte encodé et le captures de poèmes.
 * **Analyse Automatique** : Calcul du schéma des rimes et numérotation des vers via XSLT.
 * **Indexation des Entités** : Extraction et surlignage dynamique des noms de personnes (`<persName>`) à travers plusieurs fichiers sources.
 * **Notes Critiques** : Affichage d'informations complémentaires au survol du texte.
@@ -24,12 +24,12 @@ Le projet utilise des fonctions avancées pour offrir une expérience critique :
 
 Le projet est structuré de manière à séparer strictement les données, la logique de traitement et la mise en forme :
 
-### 1. Racines et Logique (Développement)
+### 1. Racines et Logique 
 * `transformation_html.xsl` : Le script principal qui génère l'intégralité du site web.
 * `style.css` : La feuille de style.
 * `tei_source1.xml` (Charles Baudelaire) & `tei_source3.xml` (Victor Hugo) : Les fichiers XML_TEI utilisé pour un autre cours.
 
-### 2. Dossier `/sources` (Iconographie)
+### 2. Dossier `/source_images` 
 * Regroupe les portraits des auteurs.
 * Contient les images des poèmes (`Source1.jpeg`, `Source3.jpeg`).
 

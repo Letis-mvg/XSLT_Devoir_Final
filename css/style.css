@@ -1,0 +1,55 @@
+/* Base et typographie */
+body { font-family: sans-serif; background: #fdfdfd; margin: 0; color: #333; }
+nav { background: #2c3e50; padding: 15px; text-align: center; }
+nav a { color: white; text-decoration: none; margin: 0 10px; font-weight: bold; }
+
+/* SURLIGNAGE */
+.highlight-pers { 
+    background-color: #fff176; /* Jaune fluo */
+    font-weight: bold;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+
+/* LE DOUBLE AFFICHAGE ( en utilisant Split Screen) */
+.split-screen { 
+    display: flex; 
+    padding: 20px; 
+    gap: 30px; 
+    align-items: flex-start; 
+}
+
+.text-side { 
+    flex: 1; 
+    background: white; 
+    padding: 40px; 
+    border-radius: 8px;
+    border-right: 1px solid #ddd;
+}
+
+.image-side { 
+    flex: 1; 
+    text-align: center; 
+    position: sticky; 
+    top: 20px; 
+}
+
+.image-side img { 
+    max-width: 100%; 
+    border: 1px solid #ddd; 
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1); 
+}
+
+/* Mise en page du texte poétique */
+.strophe { margin-bottom: 25px; }
+.vers { margin: 5px 0; display: flex; align-items: baseline; }
+.num-vers { color: #ccc; font-size: 0.8em; min-width: 35px; }
+.rime-note { color: #e67e22; font-size: 0.8em; margin-left: 15px; }
+
+/* Accueil */
+.auteurs { display: flex; justify-content: center; gap: 50px; margin-top: 50px; }
+.card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: white; text-align: center; }
+.card img { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; }
+
+/* Index */
+.index-content { padding: 40px; }
